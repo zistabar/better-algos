@@ -21,7 +21,7 @@ public class GraphSearcher {
     }
 
     /**
-     *  When we want to find shortest path between two nodes
+     *  When we want to find the shortest path between two nodes
      */
     void searchBreadthFirst(Node node) {
         Queue<Node> queue = new LinkedList<>();
