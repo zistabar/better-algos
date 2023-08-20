@@ -8,7 +8,7 @@ public class QuickSelect {
      *  Space: O(n)
      */
     int quickSelect(int[] nums, int k) {
-        return quickSelect(nums, 0, nums.length - 1, k);
+        return quickSelect(nums, 0, nums.length - 1, nums.length - k);
     }
 
     private int quickSelect(int[] nums, int left, int right, int k) {
