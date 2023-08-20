@@ -34,7 +34,7 @@ public class TreeTraverser {
             }
             root = stack.pop();
 
-            visit(stack.pop());
+            visit(root);
 
             root = root.right;
         }
