@@ -3,8 +3,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-/*
-    We can use topological sort if we have a directed acyclic graph (DAG)
+/**
+ *  We can use topological sort if we have a directed acyclic graph (DAG)
  */
 public class TopologicalSort {
 

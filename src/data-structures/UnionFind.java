@@ -1,9 +1,9 @@
-/*
-    Time:
-        - w/ path compression and union by size:
-            - amortized: O(α(N)) → O(1) per query
-            - worst case: O(log(N)) (also w/o optimizations)
-    Space: O(N)
+/**
+ *  Time:
+ *      - w/ path compression and union by size:
+ *          - amortized: O(α(N)) → O(1) per query
+ *          - worst case: O(log(N)) (also w/o optimizations)
+ *  Space: O(N)
  */
 public class UnionFind {
 
