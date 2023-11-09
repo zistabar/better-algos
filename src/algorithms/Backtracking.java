@@ -2,8 +2,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/*
-    Return all possible subsets/permutations/combinations
+/**
+ *  Return all possible subsets/permutations/combinations
  */
 public class Backtracking {
 
